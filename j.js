@@ -5,6 +5,7 @@ ig.game.attachmentManager=Deobfuscator.object(ig.game, "slots", false);
     nlx=Deobfuscator.function(ig.game[speechstuff], "l;", true);
     speecharray=Deobfuscator.keyBetween(ig.game[speechstuff][Deobfuscator.function(ig.game[speechstuff], "_~", true)], "&this.", ".sh");
     shoutmotion=Deobfuscator.function(ig.game[speechstuff], "shout", true);
+itemsa=[];
 rhtw=false;
 intad=Deobfuscator.keyBetween(EntityInteract.prototype.tidyUp, "=this.", "&&\n");
 setInterval(()=>{
